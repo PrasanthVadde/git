@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td>
+                    <input type="text" id="name">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2"><label for="">Sex</label></td>
+                <td><input type="radio" name="gender" id="male"><label for="male">Male</label></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="gender" id="female"><label for="female">Female</label></td>
+            </tr>
+            <tr>
+                <td><label for="eye_color">Eye Color</label></td>
+                <td>
+                    <select name="color" id="eye_color">
+                        <option value="0">black</option>
+                        <option value="1">blue</option>
+                        <option value="2">green</option>
+                        <option value="3">brown</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2"> <label for="check_box">Chack all that Apply</label></td>
+                <td><input type="checkbox" name="" id="height"><label for="height">Over 6 feet tall </label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="" id="weight"><label for="weight">Over 200 pound</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="describe">Describe your athletic ability:</label></td>
+            </tr>
+                <td colspan="2"><textarea id="describe" cols="38" rows="5"></textarea></td>
+            <tr>
+                <td colspan="2"><center><input type="button" value="Enter my information"> </center></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
